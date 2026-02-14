@@ -38,11 +38,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-[#8b5cf6] transition-colors">
-                  À propos
-                </Link>
-              </li>
-              <li>
                 <Link to="/skills" className="text-gray-400 hover:text-[#8b5cf6] transition-colors">
                   Compétences
                 </Link>
@@ -55,6 +50,11 @@ export function Footer() {
               <li>
                 <Link to="/contact" className="text-gray-400 hover:text-[#8b5cf6] transition-colors">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="text-gray-400 hover:text-[#8b5cf6] transition-colors">
+                  À propos
                 </Link>
               </li>
             </ul>

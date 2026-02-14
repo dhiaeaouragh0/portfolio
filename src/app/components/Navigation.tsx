@@ -9,10 +9,10 @@ export function Navigation() {
 
   const navItems = [
     { name: "Accueil", path: "/" },
-    { name: "À propos", path: "/about" },
     { name: "Compétences", path: "/skills" },
     { name: "Projets", path: "/projects" },
     { name: "Contact", path: "/contact" },
+    { name: "À propos", path: "/about" },
   ];
 
   return (
