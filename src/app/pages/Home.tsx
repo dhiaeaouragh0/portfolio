@@ -71,7 +71,7 @@ export default function Home() {
               Spécialisé en React, Node.js et architectures distribuées.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link to="/projects">
                 <motion.button
                   aria-label="Voir mes projets"
@@ -97,15 +97,15 @@ export default function Home() {
           </motion.div>
 
           {/* Scroll indicator */}
-          <motion.div
-            className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          {/* <motion.div
+            className="absolute bottom-2 left-1/2 -translate-x-1/2"
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
             <div className="w-6 h-10 border-2 border-[#8b5cf6] rounded-full flex justify-center">
               <div className="w-1.5 h-1.5 bg-[#8b5cf6] rounded-full mt-2" />
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 
