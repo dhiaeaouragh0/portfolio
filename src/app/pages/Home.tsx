@@ -132,8 +132,8 @@ export default function Home() {
               },
               {
                 icon: Globe,
-                title: "Systèmes Distribués",
-                desc: " architectures réseau",
+                title: "Infrastructure & DevOps",
+                desc: "Home server setup, DDNS, Nginx load balancing, automated MongoDB backups, Prometheus/Grafana monitoring",
                 color: "#5b21b6",
               },
             ].map((f, i) => (

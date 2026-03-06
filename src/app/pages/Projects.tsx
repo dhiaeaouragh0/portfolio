@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Github, Smartphone, ShoppingCart } from "lucide-react";
+import { Github, Smartphone, ShoppingCart ,ServerCog} from "lucide-react";
 import { SEO } from "../components/SEO";
 
 export default function Projects() {
@@ -99,33 +99,58 @@ export default function Projects() {
 }
 
 const projects = [
-
   {
     id: 1,
+    title: "Streetwear E-Commerce",
+    type: "Web Application",
+    icon: ShoppingCart, 
+    description:
+      "Site e-commerce de vêtements et accessoires streetwear, interface moderne et responsive, gestion des produits et panier.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB", "E-commerce"],
+    github: "https://github.com/dhiaeaouragh0/cap-e-com", 
+    color: "#5b21b6",
+    gradient: "from-[#8b5cf6] to-[#6d28d9]",
+    image: "/images/streetwear.png", 
+  },
+  {
+    id: 5,
+    title: "Home Server & Monitoring",
+    type: "Infrastructure / DevOps",
+    icon: ServerCog, 
+    description:
+      "Mise en place d’un serveur personnel complet avec DDNS, Nginx load balancing, sauvegardes MongoDB automatisées, et monitoring Prometheus/Grafana.",
+    technologies: ["Nginx", "DDNS", "MongoDB", "Prometheus", "Grafana", "Linux"],
+    github: "#", 
+    color: "#5b21b6",
+    gradient: "from-[#8b5cf6] to-[#6d28d9]",
+    image: "/images/home-server.png", 
+  },
+  {
+    id: 2,
     title: "E-Commerce Website",
     type: "Web Application",
     icon: ShoppingCart,
     description: "Site web e-commerce classique avec React, Node.js et MongoDB.",
     technologies: ["React",  "Node.js", "MongoDB"],
     github: "https://github.com/dhiaeaouragh0/E-COM",
-    color: "#6d28d9",
-    gradient: "from-[#6d28d9] to-[#5b21b6]",
+    color: "#5b21b6",
+    gradient: "from-[#8b5cf6] to-[#6d28d9]",
     image: "/images/ecom1.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "CowCar Mobile App",
     type: "Mobile App",
     icon: Smartphone,
     description: "Application mobile Android de gestion d’élevage bovin avec identification par code QR",
     technologies: ["Java", "XML", "SQL-Server"],
     github: "https://github.com/dhiaeaouragh0/cowcar-app",
-    color: "#8b5cf6",
+    color: "#5b21b6",
     gradient: "from-[#8b5cf6] to-[#6d28d9]",
     image: "/images/cowcar.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Gaming E-Commerce Website",
     type: "Web Application",
     icon: ShoppingCart,
@@ -136,4 +161,6 @@ const projects = [
     gradient: "from-[#5b21b6] to-[#7c3aed]",
     image: "/images/ecom2.png",
   },
+  
+  
 ];

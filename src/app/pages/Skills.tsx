@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import { Code2, Database, Layout, Cpu, Wrench } from "lucide-react";
-import { SEO } from "../components/SEO";
+import { Code2, Database, Layout, Cpu, Wrench, ServerCog  } from "lucide-react";
+import { SEO } from "../components/SEO"; 
 import { useMemo } from "react";
 
 export default function Skills() {
@@ -57,6 +57,17 @@ export default function Skills() {
           { name: "Adobe Premiere", level: 70 },
         ],
       },
+      {
+        icon: ServerCog ,
+        title: "DevOps / Infrastructure",
+        color: "#7c3aed",
+        skills: [
+          { name: "Home Server Setup", level: 90 },
+          { name: "DDNS & Nginx Load Balancing", level: 85 },
+          { name: "MongoDB Backup Automation", level: 75 },
+          { name: "Prometheus / Grafana Monitoring", level: 75 },
+        ],
+      }
 
     ],
     []

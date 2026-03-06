@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { GraduationCap, Briefcase, Globe2, Award } from "lucide-react";
+import { GraduationCap, Briefcase, Globe2, Award,ServerCog } from "lucide-react";
 import { SEO } from "../components/SEO";
 import { useMemo } from "react";
 
@@ -10,7 +10,8 @@ export default function About() {
       { icon: Briefcase, label: "Développeur Full-Stack", color: "#8b5cf6" },
       { icon: Globe2, label: "Systèmes Web", color: "#6d28d9" },
       { icon: Award, label: "Code Quality", color: "#5b21b6" },
-      { icon: GraduationCap, label: "Master 1", color: "#7c3aed" },
+      {icon: ServerCog,label: "DevOps & Infrastructure",color: "#5b21b6",
+}
     ],
     []
   );
@@ -45,6 +46,7 @@ export default function About() {
     ],
     []
   );
+  
 
   return (
     <div className="min-h-screen pt-24 pb-20 bg-[#0b0b10] text-white">
